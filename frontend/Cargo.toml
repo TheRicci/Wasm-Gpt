@@ -1,0 +1,18 @@
+[package]
+name = "yew-gpt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = "0.19.3"
+gloo = "0.8.0"
+stylist = {version="0.10.0", features=["yew"] }
+wasm-bindgen = "0.2.79"
+web-sys = {version= "0.3.56", features=["HtmlInputElement"]}
+serde = "1.0.136"
+reqwasm = "0.5.0"
+bounce = "0.2.0"
+wasm-bindgen-futures = "0.4.29"
+serde_json = "1.0.79"
